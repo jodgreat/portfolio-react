@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0  auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:#F7EDE3 ;
+}
+
+/* Buttons */
+
+.secondary{
+    width: 200px;
+    height: 60px;
+    color: #281A0B;
+    background-color: #E4E6C0;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.primary {
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    background-color: #71471E;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+ button:hover {
+    transform: translate(0, -3px);
+    transition: transform ease 0.2s;
+}
+
+
+/* NavBar */
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #281A0B;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #281A0B;
+    
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-link a::after{
+   content: "";
+   height: 2px;
+   width: 100%;
+   display: block;
+   background-color: #281A0B;
+   opacity: 0;
+   transition: all 0.2s;
+}
+
+.nav-link a:hover::after{
+   opacity: 1;
+ }
+
+.logo{
+    width: 30%;
+}
+.logo a{
+    font-weight: bold;
+}
+
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+}
+
+
+.hero-title h1{
+    font-size: 7rem;
+}
+
+.hero-title p{
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+}
+
+.soc-med{
+    display: block;
+}
+
+.soc-med a{
+    color:#BCDA72;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-right: 10px;
+}
+/* About Me */
+.about-me{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-me h1{
+    font-size: 7rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-me p{
+    width: 65%;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/* Projects */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+.projects h1{
+    font-size: 7rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Menu */
+.menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.menu-list{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-list a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #281A0B;
+}
+
+.menu-list a::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: #281A0B;
+    opacity: 0;
+    transition: all 0.2s;
+ }
+ .menu-list a:hover::after{
+    opacity: 1;
+  }
+
+  /* Menu Component */
+.web-development{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.illustration{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.web-design{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.graphic-design{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+/* Banner */
+.banner{
+    width: 95%;
+    height:100%;
+}
+
+.banner-image img{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.banner h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Card */
+
+.card h3{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.card-image{
+    margin-top: 20px;
+    width: 550px;
+    height: 550px;
+    background-color: #F0E5D8;
+    border-radius: 20px;
+}
+
+.card-button button{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.card-image-illustration{
+    margin-top: 20px;
+    width: 550px;
+    border-radius: 20px;
+}
+.card-image-illustration img{
+    width: 562px;
+    border-radius: 20px;
+}
+
+
+
+
+/* Picture Animation */
+
+.picture-animation{
+    width: 100%;
+    overflow: hidden;
+}
+
+.picture-list{
+    display: flex;
+    animation: picture 50s infinite linear ;
+    gap: 10px;
+}
+
+.picture-list img{
+   width: 100%;
+   height: 400px;
+    object-fit: cover;
+    
+}
+
+@keyframes picture{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
