@@ -9,6 +9,8 @@ import Gp3 from "../assets/gp3.png";
 import Gp4 from "../assets/gp4.png";
 import Banner2 from "../assets/graphic2.png";
 import Gp5 from "../assets/gp5.png";
+import Gp6 from "../assets/gp6.png";
+import Gp7 from "../assets/gp7.png";
 import Gif1 from "../assets/gif1.gif";
 import Gif2 from "../assets/gif2.gif";
 import Gif3 from "../assets/gif3.gif";
@@ -25,6 +27,8 @@ function GraphicDesign(){
     <CardImage image={Gif2}/>
     <Banner image={Banner2}   title=" Start Life Canada" description="Creation social media collaterals for an agency."/>
     <CardImage image={Gp5}/>
+    <CardImage image={Gp6}/>
+    <CardImage image={Gp7}/>
     <CardImage image={Gif3}/>
 </div>
 </>

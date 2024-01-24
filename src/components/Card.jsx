@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Outlet,Link } from "react-router-dom";
 function Card(props){
     return <div>
         <div className="card">
@@ -10,8 +10,10 @@ function Card(props){
         <p>{props.description}</p>
         <p>{props.language}</p>
         <div className="card-button">
-            <button className="secondary">Code</button>
-            <button className="primary">Demo</button>
+        <Link to={props.codeLink} target="_blank"><button className="secondary"> Code</button></Link> 
+        <Link to={props.demoLink} target="_blank"><button className="primary">Demo</button></Link>     
+            
+            <Outlet/>
         </div>
         </div>
     </div>

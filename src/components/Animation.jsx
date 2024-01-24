@@ -17,19 +17,19 @@ function Animation(){
     return <div>
         <div className="picture-container">
             <div className="picture-list">              
-                <img src={Illustrations} alt="" srcset="" />
-                <img src={Rm1} alt="" srcset="" />
-                <img src={Rm2 } alt="" srcset="" />
-                <img src={ Bob1} alt="" srcset="" />
-                <img src={Bob2} alt="" srcset="" />
-                <img src={Gp1} alt="" srcset="" />
-                <img src={Gp2} alt="" srcset="" />
-                <img src={Gp3} alt="" srcset="" />
-                <img src={Gp4} alt="" srcset="" />
-                <img src={Gp5} alt="" srcset="" />
-                <img src={Gif1} alt="" srcset="" />
-                <img src={Gif2} alt="" srcset="" />
-                <img src={Gif3} alt="" srcset="" />
+                <img src={Illustrations} alt=""srcSet />
+                <img src={Rm1} alt=""srcSet />
+                <img src={Rm2 } alt=""srcSet />
+                <img src={ Bob1} alt=""srcSet />
+                <img src={Bob2} alt=""srcSet />
+                <img src={Gp1} alt=""srcSet />
+                <img src={Gp2} alt=""srcSet />
+                <img src={Gp3} alt=""srcSet />
+                <img src={Gp4} alt=""srcSet />
+                <img src={Gp5} alt=""srcSet />
+                <img src={Gif1} alt=""srcSet />
+                <img src={Gif2} alt=""srcSet />
+                <img src={Gif3} alt=""srcSet />
                 
             </div>
         </div>
