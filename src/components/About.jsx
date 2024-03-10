@@ -14,11 +14,10 @@ function About() {
         <p>
           Now, I'm eager to transition into a new role as an entry-level
           front-end web developer, where I can apply my passion for design and
-          technology to create engaging and user-friendly web experiences.My
-          dedication to self-improvement, coupled with my strong work ethic and
-          adaptability, drives me to excel in my chosen path.
-        </p>
+          technology to create engaging and user-friendly web experiences.</p>
         <p>
+        My dedication to self-improvement, coupled with my strong work ethic and
+          adaptability, drives me to excel in my chosen path.
           I am eager to contribute my unique blend of creativity and technical
           expertise to projects that challenge me to grow as a web developer.
         </p>

@@ -134,7 +134,7 @@ nav a{
 .about-me{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 65%;
 }
 
 .about-me h1{
@@ -144,13 +144,15 @@ nav a{
 }
 
 .about-me p{
-    width: 65%;
     margin-bottom: 20px;
     text-align: justify;
 }
 
 .experience{
     width: 65%;
+    background-color: #ECEACD;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .company{
@@ -168,19 +170,27 @@ nav a{
     width: 550px;
 }
 
+.polygon li{
+    color: #4D3F31;
+}
 .freshprint{
     width: 550px;
 }
-
+.freshprint li{
+    color: #4D3F31;
+}
 .company li{
   margin-bottom: 20px;
 }
 
 
 .skills-container{  
+    background-color: #ECE2D8;
     width: 65%;
     margin-bottom: 50px;
     margin-top: 50px;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .skills-list{
@@ -210,8 +220,9 @@ nav a{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #F0E5D8;
+    background-color: #281A0B;
     border-radius: 10px;
+    color: #F0E5D8;
 }
 
 
@@ -228,14 +239,12 @@ nav a{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: #F0E5D8;
+    background-color:#281A0B;
     border-radius: 10px;
     flex:1;
     flex-basis: 100px;
+    color: #F0E5D8;
 }
-
-
-
 
 
 /* Projects */
@@ -244,6 +253,7 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 100%;
+  
   
 }
 
@@ -343,6 +353,7 @@ nav a{
     height: 550px;
     background-color: #F0E5D8;
     border-radius: 20px;
+    
 }
 
 .card-button button{
@@ -354,13 +365,17 @@ nav a{
     margin-top: 20px;
     width: 550px;
     border-radius: 20px;
+    transition: transform 0.2s;
 }
 .card-image-illustration img{
     width: 562px;
     border-radius: 20px;
+   
 }
 
-
+.card-image-illustration:hover{
+    transform: scale(1.05);
+}
 
 
 /* Picture Animation */
@@ -480,8 +495,10 @@ nav a{
 
 .about-me{
    padding: 20px;
-    
+    width: 100%;
 }
+
+
 
 .about-me h1{
     font-size: 3.5rem;

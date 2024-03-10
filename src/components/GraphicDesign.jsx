@@ -18,14 +18,14 @@ function GraphicDesign(){
     return <>
     <Projects includeAnimation={false}/>
     <div className="graphic-design">
-    <Banner image={Graphic} title="Lekha Superfood" description="Creation social media collaterals for online food spices store and agency."/>
+    <Banner image={Graphic} title="Lekha Superfood" description="Making social media graphics for an online retailer of food seasonings."/>
     <CardImage image={Gp1}/>
     <CardImage image={Gp2}/>
     <CardImage image={Gp3}/>
     <CardImage image={Gp4}/>
     <CardImage image={Gif1}/>
     <CardImage image={Gif2}/>
-    <Banner image={Banner2}   title=" Start Life Canada" description="Creation social media collaterals for an agency."/>
+    <Banner image={Banner2}   title=" Start Life Canada" description="Developing social media marketing materials for Start Life Canada, a migration agency.."/>
     <CardImage image={Gp5}/>
     <CardImage image={Gp6}/>
     <CardImage image={Gp7}/>
